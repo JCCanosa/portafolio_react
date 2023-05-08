@@ -10,7 +10,7 @@ export const Footer = () => {
   let year = date.getFullYear();
 
   return (
-    <footer className="footer">
+    <>
       <div className="redes">
         <NavLink to='https://www.instagram.com/juankka18/'>
           <img src={instagram} alt="Instagram" />
@@ -26,6 +26,6 @@ export const Footer = () => {
       </div>
 
       <p>&copy; Juan Carlos Canosa {year}</p>
-    </footer>
+    </>
   )
 }

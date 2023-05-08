@@ -13,17 +13,18 @@ export const Rutas = () => {
     return (
         <BrowserRouter>
             {/* LAYOUT */}
-            
-            <Nav />
+            <section className="navbar">
+                <Nav />
+            </section>
 
             {/* Contenido Central y Rutas */}
             <section id='content' className="content">
                 <Routes>
-                    <Route path="/" element={<Inicio/>}/>
-                    <Route path="/inicio" element={<Inicio/>}/>
-                    <Route path="/proyectos" element={<Proyectos/>}/>
-                    <Route path="/snipets" element={<Snipets/>}/>
-                    <Route path="/contacto" element={<Contacto/>}/>
+                    <Route path="/" element={<Inicio />} />
+                    <Route path="/inicio" element={<Inicio />} />
+                    <Route path="/proyectos" element={<Proyectos />} />
+                    <Route path="/snipets" element={<Snipets />} />
+                    <Route path="/contacto" element={<Contacto />} />
 
                     <Route path="*" element={
                         <div className="jumbo">
@@ -34,9 +35,10 @@ export const Rutas = () => {
                 </Routes>
             </section>
 
-            
-            <Footer />
-        
+            <section className="foot">
+                <Footer />
+            </section>
+
         </BrowserRouter>
 
     )

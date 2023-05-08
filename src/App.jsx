@@ -3,7 +3,7 @@ import { Rutas } from "./routes/Rutas"
 function App() {
 
   return (
-    <div className="layout">
+    <div id="layout">
 
       <Rutas />
 
