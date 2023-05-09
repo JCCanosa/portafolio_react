@@ -6,6 +6,7 @@ import { Footer } from "../components/layout/Footer";
 import { Proyectos } from "../components/pages/Proyectos";
 import { Snipets } from "../components/pages/Snipets";
 import { Contacto } from "../components/pages/Contacto";
+import { Slidercss } from "../components/snippets/Slidercss";
 
 
 export const Rutas = () => {

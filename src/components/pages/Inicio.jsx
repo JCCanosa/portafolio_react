@@ -1,5 +1,6 @@
 import React from 'react'
 import perfil from '../../assets/perfil1.png'
+import cv from '../../assets/docs/cv.pdf'
 import { Link } from 'react-router-dom'
 
 export const Inicio = () => {
@@ -18,6 +19,10 @@ export const Inicio = () => {
         <p>Entre las aptitudes que he podido ir adquiriendo hasta el momento se encuentran, <span>HTML, CSS, PHP, JavaScript, Java, SQL, XML</span> y algún otro lenguaje que forma parte tanto de la formación académica reglada, como de los cursos que hago por mi cuenta.</p>
 
         <p><span>Muchas gracias por visitar mi página personal, espero que nos veamos muy pronto!</span></p>
+
+        <div className='link'>
+          <a href={cv}>Ver CV</a>
+        </div>
       </div>
     </>
   )
