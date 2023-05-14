@@ -6,6 +6,8 @@ import { Footer } from "../components/layout/Footer";
 import { Proyectos } from "../components/pages/Proyectos";
 import { Snipets } from "../components/pages/Snipets";
 import { Contacto } from "../components/pages/Contacto";
+import { AppSalon } from "../components/pages/AppSalon";
+import { BienesRaices } from "../components/pages/BienesRaices";
 
 export const Rutas = () => {
 
@@ -22,6 +24,8 @@ export const Rutas = () => {
                     <Route path="/" element={<Inicio />} />
                     <Route path="/inicio" element={<Inicio />} />
                     <Route path="/proyectos" element={<Proyectos />} />
+                    <Route path="/proyectos/appsalon" element={<AppSalon />} />
+                    <Route path="/proyectos/bienesraices" element={<BienesRaices />} />
                     <Route path="/snipets" element={<Snipets />} />
                     <Route path="/contacto" element={<Contacto />} />
 

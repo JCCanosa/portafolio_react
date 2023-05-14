@@ -12,20 +12,19 @@ export const Footer = () => {
   return (
     <>
       <div className="redes">
-        <NavLink to='https://www.instagram.com/juankka18/'>
+        <NavLink className='redes-link' to='https://www.instagram.com/juankka18/' target='blank'>
           <img src={instagram} alt="Instagram" />
         </NavLink>
 
-        <NavLink to='https://www.linkedin.com/in/juan-carlos-canosa-su%C3%A1rez-a367391b2/'>
+        <NavLink className='redes-link' to='https://www.linkedin.com/in/juan-carlos-canosa-su%C3%A1rez-a367391b2/' target='blank'>
           <img src={linkedin} alt="LinkedIn" />
         </NavLink>
 
-        <NavLink to='https://github.com/JCCanosa'>
+        <NavLink className='redes-link' to='https://github.com/JCCanosa' target='blank'>
           <img src={github} alt="Github" />
         </NavLink>
       </div>
-
-      <p>&copy; Juan Carlos Canosa {year}</p>
+      <p>&copy;<a href="mailto:jcanosa1988@gmail.com" className='enlace-copy'>Juan Carlos Canosa</a> {year}</p>
     </>
   )
 }
