@@ -14,7 +14,7 @@ export const ImagenGaleria = ({ imagen, ruta }) => {
                 <div className="imagen-galeria">
                     <img
                         key={imagen}
-                        src={'/src/assets/img/'+ ruta + '/' + imagen}
+                        src={`/img/${ruta}/${imagen}`}
                         alt="Imagen Galeria"
                         onClick={toFullScreen}
                     />
@@ -23,7 +23,7 @@ export const ImagenGaleria = ({ imagen, ruta }) => {
                 <div className="fullscreen-overlay">
                     <img
                         key={imagen}
-                        src={'/src/assets/img/'+ ruta + '/' + imagen}
+                        src={`/img/${ruta}/${imagen}`}
                         alt="Imagen Galeria"
                     />
                     <button className='btn-cerrar' onClick={toFullScreen}>❌</button>

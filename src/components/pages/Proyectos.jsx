@@ -1,17 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import as5 from '../../assets/img/AppSalon/asg-5.png'
-import br1 from '../../assets/img/BienesRaices/brg-1.png'
-import blogCafe from '../../assets/img/blogCafe.png'
-import calcPorcentajes from '../../assets/img/calcPorcentajes.png'
-import documentacionJS from '../../assets/img/documentacionJS.png'
-import encuestaProg from '../../assets/img/encuestaProg.png'
-import festivalMusica from '../../assets/img/festivalMusica.png'
-import freelance from '../../assets/img/freelance.png'
-import landingPageJbl from '../../assets/img/landingPageJbl.png'
-import tiendaCamisetas from '../../assets/img/tiendaCamisetas.png'
-import tributoRayden from '../../assets/img/tributoRayden.png'
+import as5 from '/img/AppSalon/asg-5.png'
+import br1 from '/img/BienesRaices/brg-1.png'
+import blogCafe from '/img/blogCafe.png'
+import calcPorcentajes from '/img/calcPorcentajes.png'
+import documentacionJS from '/img/documentacionJS.png'
+import encuestaProg from '/img/encuestaProg.png'
+import festivalMusica from '/img/festivalMusica.png'
+import freelance from '/img/freelance.png'
+import landingPageJbl from '/img/landingPageJbl.png'
+import tiendaCamisetas from '/img/tiendaCamisetas.png'
+import tributoRayden from '/img/tributoRayden.png'
 
 export const Proyectos = () => {
   return (
