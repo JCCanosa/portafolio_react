@@ -7,12 +7,12 @@ import { NavLink } from 'react-router-dom'
 
 export const Nav = () => {
 
-  function mouseEnter(id){
+  const mouseEnter = (id) => {
     let element = document.getElementById(id)
     element.style.opacity = '1'
   }
 
-  function mouseOut(id){
+  const mouseOut = (id) => {
     let element = document.getElementById(id)
     element.style.opacity = '0'
   }
